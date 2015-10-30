@@ -1,0 +1,26 @@
+{
+  "name": "cmsis-core-atmel-samcortexm0p",
+  "version": "0.1.0",
+  "description": "CMSIS Core Implementation for Atmel SAM Cortex M0+ Microcontrollers",
+  "keywords": [
+  "cmsis",
+	"samcortexm0p",
+  "atmel-samcortexm0p",
+	"headers_files",
+	"preprocessor"
+  ],
+  "license": "Apache-2",
+  "extraIncludes": [
+  ],
+  "dependencies": {
+    "cmsis-core": "*"
+  },
+  "targetDependencies": {
+    "atmel-samcortexm0p-samr21": {
+    "cmsis-core-atmel-samcortexm0p-samr21": "*"
+    },
+    "atmel-samcortexm0p-samd21": {
+    "cmsis-core-atmel-samcortexm0p-samd21": "*"
+    }
+  }
+}
