@@ -1,6 +1,6 @@
 {
   "name": "cmsis-core-atmel-samcortexm0p",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "CMSIS Core Implementation for Atmel SAM Cortex M0+ Microcontrollers",
   "keywords": [
   "cmsis",
@@ -9,6 +9,12 @@
 	"headers_files",
 	"preprocessor"
   ],
+  "author": "Akhil P <Akhil.P@atmel.com>",
+  "repository": {
+    "url": "git@github.com:ARMmbed/cmsis-core-atmel-samcortexm0p.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/cmsis-core-atmel-samcortexm0p",    
   "license": "Apache-2",
   "extraIncludes": [
   ],
